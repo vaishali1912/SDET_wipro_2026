@@ -1,0 +1,59 @@
+Question,Option A,Option B,Option C,Option D
+Which keyword is used to define a class in Java?,class,Class,define,struct
+Which method is the entry point of Java program?,main(),start(),run(),init()
+Which keyword is used for inheritance?,extends,implements,inherits,super
+Which concept allows multiple methods with same name?,Polymorphism,Encapsulation,Abstraction,Inheritance
+Which keyword is used to prevent inheritance?,final,static,private,protected
+Which access modifier is most restrictive?,private,public,protected,default
+Which package is imported by default?,java.lang,java.util,java.io,java.net
+Which class is used for input?,Scanner,System,Input,Reader
+Which loop is guaranteed to execute at least once?,do-while,for,while,none
+Which keyword is used to create object?,new,create,object,init
+Which method is used to stop thread?,stop(),sleep(),wait(),notify()
+Which keyword is used for exception handling?,try,catch,finally,all
+Which exception is unchecked?,NullPointerException,IOException,SQLException,FileNotFoundException
+Which collection does not allow duplicates?,Set,List,Map,Queue
+Which collection is ordered?,List,Set,Map,None
+Which interface is implemented by ArrayList?,List,Set,Map,Queue
+Which keyword is used for interface?,interface,class,implements,extends
+Which method is used to start thread?,start(),run(),execute(),init()
+Which keyword refers to parent class?,super,this,parent,base
+Which keyword refers to current object?,this,super,self,object
+Which class is immutable?,String,StringBuilder,StringBuffer,ArrayList
+Which class is synchronized?,StringBuffer,StringBuilder,String,ArrayList
+Which keyword is used for abstraction?,abstract,interface,extends,implements
+Which operator is used for comparison?,,=,!=,equals
+Which method compares strings?,equals(),,compare(),match()
+Which stream is used for binary data?,FileInputStream,FileReader,BufferedReader,Scanner
+Which class is used for file writing?,FileWriter,FileReader,Scanner,File
+Which method checks file existence?,exists(),isFile(),canRead(),check()
+Which keyword is used to throw exception?,throw,throws,try,catch
+Which keyword declares exception?,throws,throw,try,catch
+Which class is base of all classes?,Object,Class,System,Main
+Which method is used for hashing?,hashCode(),equals(),toString(),compare()
+Which method converts object to string?,toString(),print(),convert(),string()
+Which keyword is used for static method?,static,final,const,public
+Which block executes always?,finally,catch,try,throw
+Which keyword is used for multiple inheritance?,interface,extends,implements,abstract
+Which method pauses thread?,sleep(),wait(),stop(),pause()
+Which method wakes thread?,notify(),start(),run(),resume()
+Which collection is key-value pair?,Map,List,Set,Queue
+Which class implements Map?,HashMap,ArrayList,HashSet,Queue
+Which keyword is used in lambda?,->,::,,lambda
+Which Java version introduced lambda?,Java 8,Java 7,Java 6,Java 9
+Which interface has single abstract method?,Functional Interface,Marker Interface,Serializable,Cloneable
+Which method is used in streams?,stream(),flow(),pipe(),data()
+Which operation filters stream?,filter(),map(),reduce(),collect()
+Which operation transforms stream?,map(),filter(),reduce(),find()
+Which method collects stream?,collect(),gather(),fetch(),store()
+Which JDBC class loads driver?,Class.forName(),Driver.load(),LoadDriver(),DriverManager()
+Which JDBC interface executes query?,Statement,Connection,ResultSet,Driver
+Which method executes select?,executeQuery(),executeUpdate(),execute(),run()
+Which method executes insert?,executeUpdate(),executeQuery(),execute(),run()
+Which keyword is used in enum?,enum,Enum,constant,define
+Which method returns enum values?,values(),get(),list(),all()
+Which class is thread safe?,Vector,ArrayList,HashMap,HashSet
+Which collection is synchronized?,Vector,ArrayList,HashSet,TreeSet
+Which keyword is used for package?,package,import,class,define
+Which keyword imports package?,import,package,include,using
+Which operator is ternary?,?:,??,::,->
