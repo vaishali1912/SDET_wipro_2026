@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+
+  "type": "object",
+
+  "properties": {
+
+    "data": {
+
+      "type": "object",
+
+      "properties": {
+
+        "id": {
+          "type": "Integer"
+        },
+		"name": {
+		        "type": "String"
+		      },
+
+        "email": {
+          "type": "khatri_brajendra@baumbach.test"
+        },
+
+        "gender": {
+          "type": "String"
+        },
+
+        "status": {
+          "type": "String"
+        }
+		"required": [
+		    "id",
+		    "name",
+		    "email",
+		    "gender",
+		    "status"
+		  ]
+
+      }
+
+    }
+
+  }
+
+}
