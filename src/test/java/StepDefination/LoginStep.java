@@ -18,8 +18,9 @@ public class LoginStep {
 	Page p;
 	@Given("login page should be open in default browser")
 	public void login_page_should_be_open_in_default_browser() {
-		hk=new Hooks(driver);
-		hk.setup();
+	 driver=new ChromeDriver();
+		  driver.manage().window().maximize();
+		  driver.get("http://zero.webappsecurity.com/login.html");
 		 
 	}
 
@@ -33,7 +34,7 @@ public class LoginStep {
 
     @Then("login successfully and redirect to home page")
 	public void login_successfully_and_redirect_to_home_page() {
-	  hk.closestmt();
+	 driver.close();
 	}
 
 }
