@@ -1,51 +1,60 @@
 pipeline {
     agent any
-
+ 
     tools {
-        maven 'Maven3'
+        maven 'Maven_3'
     }
-
+ 
     stages {
-
+ 
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/vaishali1912/SDET_wipro_2026.git'
+                    url: 'https://github.com/vaishali1912/SDET_wipro_2026'
             }
         }
-
+ 
         stage('Build') {
             steps {
-                bat 'mvn clean'
+                dir('Cucumber_BDD') {
+                    bat 'mvn clean'
+                }
             }
         }
-
+ 
         stage('Compile') {
             steps {
-                bat 'mvn compile'
+                dir('Cucumber_BDD') {
+                    bat 'mvn compile'
+                }
             }
         }
-
+ 
         stage('Test') {
             steps {
-                bat 'mvn test'
+                dir('Cucumber_BDD') {
+                    bat 'mvn test'
+                }
             }
         }
-
+ 
         stage('Package') {
             steps {
-                bat 'mvn package'
+                dir('Cucumber_BDD') {
+                    bat 'mvn package'
+                }
             }
         }
     }
-
+ 
     post {
         success {
             echo 'Build Successful'
         }
-
+ 
         failure {
             echo 'Build Failed'
         }
     }
 }
+ 
